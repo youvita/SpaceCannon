@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE174BD1B2ABADE009303BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE174BC1B2ABADE009303BC /* AppDelegate.swift */; };
+		3EE174BF1B2ABADE009303BC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EE174BE1B2ABADE009303BC /* GameScene.sks */; };
+		3EE174C11B2ABADE009303BC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE174C01B2ABADE009303BC /* GameScene.swift */; };
+		3EE174C31B2ABADE009303BC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE174C21B2ABADE009303BC /* GameViewController.swift */; };
+		3EE174C61B2ABADE009303BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE174C41B2ABADE009303BC /* Main.storyboard */; };
+		3EE174C81B2ABADE009303BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE174C71B2ABADE009303BC /* Images.xcassets */; };
+		3EE174CB1B2ABADE009303BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE174C91B2ABADE009303BC /* LaunchScreen.xib */; };
+		3EE174D71B2ABADE009303BC /* SKSpaceCannonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE174D61B2ABADE009303BC /* SKSpaceCannonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EE174D11B2ABADE009303BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE174AF1B2ABADE009303BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE174B61B2ABADE009303BC;
+			remoteInfo = SKSpaceCannon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EE174B71B2ABADE009303BC /* SKSpaceCannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKSpaceCannon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE174BB1B2ABADE009303BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE174BC1B2ABADE009303BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE174BE1B2ABADE009303BC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3EE174C01B2ABADE009303BC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3EE174C21B2ABADE009303BC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3EE174C51B2ABADE009303BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EE174C71B2ABADE009303BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EE174CA1B2ABADE009303BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3EE174D01B2ABADE009303BC /* SKSpaceCannonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKSpaceCannonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE174D51B2ABADE009303BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE174D61B2ABADE009303BC /* SKSpaceCannonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSpaceCannonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE174B41B2ABADE009303BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE174CD1B2ABADE009303BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE174AE1B2ABADE009303BC = {
+			isa = PBXGroup;
+			children = (
+				3EE174B91B2ABADE009303BC /* SKSpaceCannon */,
+				3EE174D31B2ABADE009303BC /* SKSpaceCannonTests */,
+				3EE174B81B2ABADE009303BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE174B81B2ABADE009303BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE174B71B2ABADE009303BC /* SKSpaceCannon.app */,
+				3EE174D01B2ABADE009303BC /* SKSpaceCannonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE174B91B2ABADE009303BC /* SKSpaceCannon */ = {
+			isa = PBXGroup;
+			children = (
+				3EE174BC1B2ABADE009303BC /* AppDelegate.swift */,
+				3EE174BE1B2ABADE009303BC /* GameScene.sks */,
+				3EE174C01B2ABADE009303BC /* GameScene.swift */,
+				3EE174C21B2ABADE009303BC /* GameViewController.swift */,
+				3EE174C41B2ABADE009303BC /* Main.storyboard */,
+				3EE174C71B2ABADE009303BC /* Images.xcassets */,
+				3EE174C91B2ABADE009303BC /* LaunchScreen.xib */,
+				3EE174BA1B2ABADE009303BC /* Supporting Files */,
+			);
+			path = SKSpaceCannon;
+			sourceTree = "<group>";
+		};
+		3EE174BA1B2ABADE009303BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE174BB1B2ABADE009303BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EE174D31B2ABADE009303BC /* SKSpaceCannonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE174D61B2ABADE009303BC /* SKSpaceCannonTests.swift */,
+				3EE174D41B2ABADE009303BC /* Supporting Files */,
+			);
+			path = SKSpaceCannonTests;
+			sourceTree = "<group>";
+		};
+		3EE174D41B2ABADE009303BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EE174D51B2ABADE009303BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE174B61B2ABADE009303BC /* SKSpaceCannon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE174DA1B2ABADE009303BC /* Build configuration list for PBXNativeTarget "SKSpaceCannon" */;
+			buildPhases = (
+				3EE174B31B2ABADE009303BC /* Sources */,
+				3EE174B41B2ABADE009303BC /* Frameworks */,
+				3EE174B51B2ABADE009303BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKSpaceCannon;
+			productName = SKSpaceCannon;
+			productReference = 3EE174B71B2ABADE009303BC /* SKSpaceCannon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EE174CF1B2ABADE009303BC /* SKSpaceCannonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE174DD1B2ABADE009303BC /* Build configuration list for PBXNativeTarget "SKSpaceCannonTests" */;
+			buildPhases = (
+				3EE174CC1B2ABADE009303BC /* Sources */,
+				3EE174CD1B2ABADE009303BC /* Frameworks */,
+				3EE174CE1B2ABADE009303BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE174D21B2ABADE009303BC /* PBXTargetDependency */,
+			);
+			name = SKSpaceCannonTests;
+			productName = SKSpaceCannonTests;
+			productReference = 3EE174D01B2ABADE009303BC /* SKSpaceCannonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE174AF1B2ABADE009303BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Kosign;
+				TargetAttributes = {
+					3EE174B61B2ABADE009303BC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3EE174CF1B2ABADE009303BC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3EE174B61B2ABADE009303BC;
+					};
+				};
+			};
+			buildConfigurationList = 3EE174B21B2ABADE009303BC /* Build configuration list for PBXProject "SKSpaceCannon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE174AE1B2ABADE009303BC;
+			productRefGroup = 3EE174B81B2ABADE009303BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE174B61B2ABADE009303BC /* SKSpaceCannon */,
+				3EE174CF1B2ABADE009303BC /* SKSpaceCannonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE174B51B2ABADE009303BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE174CB1B2ABADE009303BC /* LaunchScreen.xib in Resources */,
+				3EE174C81B2ABADE009303BC /* Images.xcassets in Resources */,
+				3EE174BF1B2ABADE009303BC /* GameScene.sks in Resources */,
+				3EE174C61B2ABADE009303BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE174CE1B2ABADE009303BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE174B31B2ABADE009303BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE174C11B2ABADE009303BC /* GameScene.swift in Sources */,
+				3EE174C31B2ABADE009303BC /* GameViewController.swift in Sources */,
+				3EE174BD1B2ABADE009303BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE174CC1B2ABADE009303BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE174D71B2ABADE009303BC /* SKSpaceCannonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE174D21B2ABADE009303BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE174B61B2ABADE009303BC /* SKSpaceCannon */;
+			targetProxy = 3EE174D11B2ABADE009303BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EE174C41B2ABADE009303BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE174C51B2ABADE009303BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EE174C91B2ABADE009303BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE174CA1B2ABADE009303BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE174D81B2ABADE009303BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EE174D91B2ABADE009303BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE174DB1B2ABADE009303BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKSpaceCannon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EE174DC1B2ABADE009303BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKSpaceCannon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EE174DE1B2ABADE009303BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKSpaceCannonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKSpaceCannon.app/SKSpaceCannon";
+			};
+			name = Debug;
+		};
+		3EE174DF1B2ABADE009303BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKSpaceCannonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKSpaceCannon.app/SKSpaceCannon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE174B21B2ABADE009303BC /* Build configuration list for PBXProject "SKSpaceCannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE174D81B2ABADE009303BC /* Debug */,
+				3EE174D91B2ABADE009303BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE174DA1B2ABADE009303BC /* Build configuration list for PBXNativeTarget "SKSpaceCannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE174DB1B2ABADE009303BC /* Debug */,
+				3EE174DC1B2ABADE009303BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EE174DD1B2ABADE009303BC /* Build configuration list for PBXNativeTarget "SKSpaceCannonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE174DE1B2ABADE009303BC /* Debug */,
+				3EE174DF1B2ABADE009303BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE174AF1B2ABADE009303BC /* Project object */;
+}
